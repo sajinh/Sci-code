@@ -8,7 +8,7 @@ freq = stn_spc&freq
 per = 1.0/(12*freq) ; in years
 pp("decadal "+per(8)+" to "+per(2)+" yrs")
 pp("interannual "+per(50)+" to "+per(10)+" yrs")
-pp("interdecadal "+per(97)+" to "+per(60)+" yrs")
+pp("noise "+per(97)+" to "+per(60)+" yrs")
 exit
 station=fin->station
 nstn = dimsizes(station)
