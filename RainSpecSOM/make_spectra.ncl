@@ -1,5 +1,5 @@
 load "$SysE/lib/ncl/helper_libs.ncl"
-load "$HOMEOFFICE/ncllib/fft/fft_helpers.ncl"
+load "./fft_helpers.ncl"
 
 outfil="rain_spec.nc"
 
