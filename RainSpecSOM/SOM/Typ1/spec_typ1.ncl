@@ -1,7 +1,6 @@
 load "$SysE/lib/ncl/helper_libs.ncl"
 load "../../ncllib/stndata/node_helpers.ncl"
 load "./make_plot_spec.ncl"
-exit
 
 SMOOTH_TS   = True
 DTREND_TS = True
